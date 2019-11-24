@@ -1,33 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Teach-Technical &mdash; How to learn AutoCad</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<head>
+  <title>Teach-Technical &mdash; How to learn AutoCad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
-    
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/popup.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div class="popup-modal">
+    <div class="popup-modal-content">
+
+      <div class="col-lg-12 ml-auto">
+        <span class="popup-close-button">&times;</span>
+        <form action="" method="post" class="form-box">
+          <h3 class="h4 text-black mb-4">Đăng kí thông tin</h3>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Tên">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Điện chỉ Email">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Khóa học đăng kí">
+          </div>
+          <div class="form-group mb-4">
+            <input type="password" class="form-control" placeholder="Số điện thoại">
+          </div>
+          <div class="form-group text-center">
+            <input type="submit" class="btn btn-primary btn-pill" value="Đăng kí">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
@@ -38,10 +67,10 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-   
-    
+
+
     <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-      
+
       <div class="container-fluid">
         <div class="d-flex align-items-center">
           <div class="site-logo mr-auto w-25"><a href="index.html">Teach-Technical</a></div>
@@ -51,8 +80,8 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Trang Chủ</a></li>
                 <li><a href="#courses-section" class="nav-link">Khóa Học</a></li>
-                <li><a href="#programs-section" class="nav-link">Chương Trình</a></li>
                 <li><a href="#teachers-section" class="nav-link">Đội Ngũ</a></li>
+                <li><a href="#why-section" class="nav-link">Tại sao</a></li>
               </ul>
             </nav>
           </div>
@@ -60,55 +89,43 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                <li class="cta"><a href="#contact-section" class="nav-link"><span>Liên Hệ Với Chúng Tôi</span></a></li>
+                <li class="cta popup-trigger"><a href="#contact-section" class="nav-link">
+                    <span>
+                      <!-- <button class="popup-trigger">Click here to trigger the modal!</button> -->
+                      Liên hệ với chúng tôi
+                    </span></a></li>
               </ul>
             </nav>
-            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
+                class="icon-menu h3"></span></a>
           </div>
         </div>
       </div>
-      
+
     </header>
 
     <div class="intro-section" id="home-section">
-      
+
       <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
-                  <h1  data-aos="fade-up" data-aos-delay="100">Autocad Từ Cơ Bản Đến Nâng Cao</h1>
-                  <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">Khoá học Autocad Cơ Bản Và Nâng Cao Giúp bạn thực hiện được tốt các bản vẽ kỹ thuật bằng phần mềm Autocad, đúng quy chuẩn, đúng tỷ lệ. Học Thành thạo phần mềm Autocad nhanh nhất</p>
-                </div>
-
-                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                  <form action="" method="post" class="form-box">
-                    <h3 class="h4 text-black mb-4">Điền thông tin để chúng tôi liên hệ với bạn</h3>
-                    <div class="form-group">
-                      <input type="password" class="form-control" placeholder="Tên">
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Điện chỉ Email">
-                    </div>
-                    <div class="form-group mb-4">
-                      <input type="password" class="form-control" placeholder="Số điện thoại">
-                    </div>
-                    <div class="form-group">
-                      <input type="submit" class="btn btn-primary btn-pill" value="Đăng kí">
-                    </div>
-                  </form>
-
+                  <h1 data-aos="fade-up" data-aos-delay="100">Autocad Từ Cơ Bản Đến Nâng Cao</h1>
+                  <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Khoá học Autocad Cơ Bản Và Nâng Cao Giúp bạn
+                    thực hiện được tốt các bản vẽ kỹ thuật bằng phần mềm Autocad, đúng quy chuẩn, đúng tỷ lệ. Học Thành
+                    thạo phần mềm Autocad nhanh nhất</p>
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
     </div>
 
-    
+
     <div class="site-section courses-title" id="courses-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
@@ -118,18 +135,65 @@
         </div>
       </div>
     </div>
-    <div class="site-section courses-entry-wrap"  data-aos="fade-up" data-aos-delay="100">
+    <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
       <div class="container">
         <div class="row">
 
           <div class="owl-carousel col-12 nonloop-block-14">
+
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
                 <a href="course-single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
-                <span class="course-price">2.000.000 VNĐ</span>
+                <span class="course-price">1.000.000 VNĐ</span>
+                <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                <h3><a href="#">Excel cơ bản</a></h3>
+                <p>Học Excel cho người mới bắt đầu từ con số không</p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+                <figure class="m-0">
+                  <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                </figure>
+                <div class="course-inner-text py-4 px-4">
+                  <span class="course-price">1.000.000 VNĐ</span>
+                  <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                  <h3><a href="#">Excel nâng cao</a></h3>
+                  <p>Học Excel cho người đã có kiến thức tảng</p>
+                </div>
+                <div class="d-flex border-top stats">
+                  <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+                </div>
+              </div>
+
+
+              <div class="course bg-white h-100 align-self-stretch">
+                  <figure class="m-0">
+                    <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  </figure>
+                  <div class="course-inner-text py-4 px-4">
+                    <span class="course-price">1.000.000 VNĐ</span>
+                    <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                    <h3><a href="#">Revit cơ bản</a></h3>
+                    <p>Học Revit cho người mới bắt đầu từ con số không</p>
+                  </div>
+                  <div class="d-flex border-top stats">
+                    <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+                  </div>
+                </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">1.000.000 VNĐ</span>
                 <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
                 <h3><a href="#">Autocad cơ bản</a></h3>
                 <p>Học Autocad cho người mới bắt đầu từ con số không</p>
@@ -139,9 +203,9 @@
               </div>
             </div>
 
-                        <div class="course bg-white h-100 align-self-stretch">
+            <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/img_5.jpg" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">2.000.000 VNĐ</span>
@@ -156,7 +220,7 @@
 
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src="images/img_6.jpg" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">2.000.000 VNĐ</span>
@@ -181,7 +245,7 @@
     </div>
 
 
-   <!--  <div class="site-section" id="programs-section">
+    <!--  <div class="site-section" id="programs-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
@@ -259,9 +323,11 @@
       <div class="container">
 
         <div class="row mb-5 justify-content-center">
-          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+          <div class="col-lg-7 mb-5 text-center" data-aos="fade-up" data-aos-delay="">
             <h2 class="section-title">Đội ngũ giảng viên</h2>
-            <p class="mb-5">Với kinh nghiệm giảng dạy tại các trung tâm tin học cũng như kinh nghiệm làm việc của mình sẽ hỗ trợ được cho các bạn có một nền tản tin học tốt, vững chắc để tự tin tìm kiếm cho mình một công việc tốt</p>
+            <p class="mb-5">Với kinh nghiệm giảng dạy tại các trung tâm tin học cũng như kinh nghiệm làm việc của mình
+              sẽ hỗ trợ được cho các bạn có một nền tản tin học tốt, vững chắc để tự tin tìm kiếm cho mình một công việc
+              tốt</p>
           </div>
         </div>
 
@@ -273,7 +339,8 @@
               <div class="py-2">
                 <h3 class="text-black">Lê Việt Thắng</h3>
                 <p class="position">Autocad từ cơ bản đến nâng cao</p>
-                <p>Với kinh nghiệm giảng dạy tại các trung tâm tin học cùng với làm việc tại tập đoàn lớn giúp bạn nắng chắc từ cơ bản đến nâng cao</p>
+                <p>Với kinh nghiệm giảng dạy tại các trung tâm tin học cùng với làm việc tại tập đoàn lớn giúp bạn nắng
+                  chắc từ cơ bản đến nâng cao</p>
               </div>
             </div>
           </div>
@@ -284,7 +351,8 @@
               <div class="py-2">
                 <h3 class="text-black">Katleen Stone</h3>
                 <p class="position">Physics Teacher</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto
+                  tempora, adipisci at provident.</p>
               </div>
             </div>
           </div>
@@ -295,7 +363,8 @@
               <div class="py-2">
                 <h3 class="text-black">Sadie White</h3>
                 <p class="position">Physics Teacher</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto
+                  tempora, adipisci at provident.</p>
               </div>
             </div>
           </div>
@@ -317,7 +386,7 @@
       </div>
     </div>
 
-    <div class="site-section pb-0">
+    <div class="site-section pb-0" id="why-section" >
 
       <div class="future-blobs">
         <div class="blob_2">
@@ -334,29 +403,38 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 ml-auto align-self-start"  data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 ml-auto align-self-start" data-aos="fade-up" data-aos-delay="100">
 
             <div class="p-4 rounded bg-white why-choose-us-box">
 
               <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
-                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span></div>
-                <div><h3 class="m-0">Giảng viên chuyên nghiệp</h3></div>
+                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span>
+                </div>
+                <div>
+                  <h3 class="m-0">Giảng viên chuyên nghiệp</h3>
+                </div>
               </div>
 
               <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
-                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-university"></span></span></div>
-                <div><h3 class="m-0">Cam kết chất lượng đầu ra</h3></div>
+                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-university"></span></span>
+                </div>
+                <div>
+                  <h3 class="m-0">Cam kết chất lượng đầu ra</h3>
+                </div>
               </div>
 
               <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
-                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span></div>
-                <div><h3 class="m-0">Học viên được hỗ trợ sau khi tốt nghiệp</h3></div>
-              </div>  
+                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span>
+                </div>
+                <div>
+                  <h3 class="m-0">Học viên được hỗ trợ sau khi tốt nghiệp</h3>
+                </div>
+              </div>
             </div>
 
 
           </div>
-          <div class="col-lg-7 align-self-end"  data-aos="fade-left" data-aos-delay="200">
+          <div class="col-lg-7 align-self-end" data-aos="fade-left" data-aos-delay="200">
             <img src="images/person_transparent.png" alt="Image" class="img-fluid">
           </div>
         </div>
@@ -364,13 +442,14 @@
     </div>
 
 
-     
+
     <footer class="footer-section bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <h3>Về chúng tôi</h3>
-            <p>Liện hệ zalo Thầy Thắng : 0933.214.222 để đăng ký học hoặc điền theo mẫu để đăng ký học ngay và luôn !!!</p>
+            <p>Liện hệ zalo Thầy Thắng : 0933.214.222 để đăng ký học hoặc điền theo mẫu để đăng ký học ngay và luôn !!!
+            </p>
           </div>
 
           <div class="col-md-3 ml-auto">
@@ -398,21 +477,44 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-            <p>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Teach-Technical</a>
-        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      </p>
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+                with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                  target="_blank">Teach-Technical</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
             </div>
           </div>
-          
+
         </div>
       </div>
     </footer>
 
-  
-    
+
+
   </div> <!-- .site-wrap -->
+
+  <script>
+    var modal = document.querySelector(".popup-modal");
+    var trigger = document.querySelector(".popup-trigger");
+    var closeButton = document.querySelector(".popup-close-button");
+
+    function toggleModal() {
+      modal.classList.toggle("popup-show-modal");
+    }
+
+    function windowOnClick(event) {
+      if (event.target === modal) {
+        toggleModal();
+      }
+    }
+    toggleModal();
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+  </script>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -428,8 +530,9 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
 
-  
+
   <script src="js/main.js"></script>
-    
-  </body>
+
+</body>
+
 </html>
