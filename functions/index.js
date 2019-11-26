@@ -50,6 +50,7 @@ app.get('/user',(request,response)=>{
 
 app.post('/delete-user/',(request,response)=>{
     var userId = request.body.userId;
+    
     let deleteDoc = db.collection('users').doc(userId).delete();
 });
 

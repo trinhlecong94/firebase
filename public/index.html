@@ -5,57 +5,49 @@
   <title>Teach-Technical &mdash; How to learn AutoCad</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
   <link rel="stylesheet" href="css/aos.css">
-
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/popup.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   <div class="popup-modal">
     <div class="popup-modal-content">
-
       <div class="col-lg-12 ml-auto">
         <span class="popup-close-button">&times;</span>
-        <form action="" method="post" class="form-box">
+        <form action="" method="post" class="form-box" id="register">
           <h3 class="h4 text-black mb-4">Đăng kí thông tin</h3>
           <div class="form-group">
-            <input type="password" class="form-control" placeholder="Tên">
+            <input type="text" name="name" class="form-control" placeholder="Tên">
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Điện chỉ Email">
+            <input type="text" class="form-control" name="email" placeholder="Điện chỉ Email">
           </div>
           <div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option selected>Chọn khóa học</option>
-                <option>Excel cơ bản</option>
-                <option>Excel nâng cao</option>
-                <option>Autocad cơ bản</option>
-                <option>Autocad nâng cao</option>
-                <option>Revit cơ bản</option>
-                <option>Shopdrawing xây dựng</option>
-              </select>
-            </div>
+            <select class="form-control" id="myselect">
+              <option value="Null" selected>Chọn khóa học</option>
+              <option value="Excel cơ bản">Excel cơ bản</option>
+              <option value="Excel nâng cao">Excel nâng cao</option>
+              <option value="Autocad cơ bản">Autocad cơ bản</option>
+              <option value="Autocad nâng cao">Autocad nâng cao</option>
+              <option value="Revit cơ bản">Revit cơ bản</option>
+              <option value="Shopdrawing xây dựng">Shopdrawing xây dựng</option>
+            </select>
+          </div>
           <div class="form-group mb-4">
-            <input type="password" class="form-control" placeholder="Số điện thoại">
+            <input type="password" class="form-control" placeholder="Số điện thoại" name="telephone">
           </div>
           <div class="form-group text-center">
             <input type="submit" class="btn btn-primary btn-pill" value="Đăng kí">
@@ -120,7 +112,7 @@
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
-                  <h1 data-aos="fade-up" data-aos-delay="100">AUTOCAD - EXEL - REVIT -SHOPDWG BASIC AND ADVANDED</h1>
+                  <h1 data-aos="fade-up" data-aos-delay="100">AUTOCAD - EXEL - REVIT -SHOPDWG BASIC AND ADVANCED</h1>
                   <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Khoá học từ Cơ Bản đến Nâng Cao Giúp bạn
                     thực hiện được tốt các bản vẽ kỹ thuật bằng phần mềm, đúng quy chuẩn, đúng tỷ lệ. Học Thành
                     thạo phần mềm một cách nhanh nhất</p>
@@ -147,117 +139,122 @@
       <div class="container">
         <div class="row">
 
-            <div class="owl-carousel col-12 nonloop-block-14">
-                <div class="course bg-white h-100 align-self-stretch">
-                  <figure class="m-0">
-                    <a href="excel-co-ban.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                  <div class="course-inner-text py-4 px-4">
-                      <span class="course-price">
-                        <del>2.000.000 VNĐ</del> 
-                          <br>1.500.000 VNĐ
-                      </span>
-                    <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
-                    <h3><a href="excel-co-ban.html">Excel cơ bản</a></h3>
-                    <p>Học Excel cho người mới bắt đầu từ con số không</p>
-                  </div>
-                  <div class="d-flex border-top stats">
-                    <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
-                  </div>
-                </div>
-    
-                <div class="course bg-white h-100 align-self-stretch">
-                    <figure class="m-0">
-                      <a href="excel-nang-cao.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-                    </figure>
-                    <div class="course-inner-text py-4 px-4">
-                        <span class="course-price">
-                            <del>2.000.000 VNĐ</del> 
-                              <br>1.500.000 VNĐ
-                          </span>
-                      <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
-                      <h3><a href="excel-nang-cao.html">Excel nâng cao</a></h3>
-                      <p>Học Excel cho người đã có kiến thức tảng</p>
-                    </div>
-                    <div class="d-flex border-top stats">
-                      <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
-                    </div>
-                  </div>
-    
-    
-                  <div class="course bg-white h-100 align-self-stretch">
-                      <figure class="m-0">
-                        <a href="revit-co-ban.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-                      </figure>
-                      <div class="course-inner-text py-4 px-4">
-                          <span class="course-price">
-                              <del>2.000.000 VNĐ</del> 
-                                <br>1.500.000 VNĐ
-                            </span>
-                        <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
-                        <h3><a href="revit-co-ban.html">Revit cơ bản</a></h3>
-                        <p>Học Revit cho người mới bắt đầu từ con số không</p>
-                      </div>
-                      <div class="d-flex border-top stats">
-                        <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
-                      </div>
-                    </div>
-    
-                <div class="course bg-white h-100 align-self-stretch">
-                  <figure class="m-0">
-                    <a href="autocad-co-ban.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                  <div class="course-inner-text py-4 px-4">
-                      <span class="course-price">
-                          <del>2.000.000 VNĐ</del> 
-                            <br>1.500.000 VNĐ
-                        </span>
-                    <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
-                    <h3><a href="autocad-co-ban.html">Autocad cơ bản</a></h3>
-                    <p>Học Autocad cho người mới bắt đầu từ con số không</p>
-                  </div>
-                  <div class="d-flex border-top stats">
-                    <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
-                  </div>
-                </div>
-    
-                <div class="course bg-white h-100 align-self-stretch">
-                  <figure class="m-0">
-                    <a href="autocad-nang-cao.html"><img src="images/img_5.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                  <div class="course-inner-text py-4 px-4">
-                      <span class="course-price">
-                          <del>2.000.000 VNĐ</del> 
-                            <br>1.500.000 VNĐ
-                        </span>
-                    <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
-                    <h3><a href="autocad-nang-cao.html">Autocad nâng cao</a></h3>
-                    <p>Học Autocad cho những bạn đã có căn bản </p>
-                  </div>
-                  <div class="d-flex border-top stats">
-                    <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
-                  </div>
-                </div>
-    
-                <div class="course bg-white h-100 align-self-stretch">
-                  <figure class="m-0">
-                    <a href="shopdrawing-trien-khai-thi-cong.html"><img src="images/img_6.jpg" alt="Image" class="img-fluid"></a>
-                  </figure>
-                  <div class="course-inner-text py-4 px-4">
-                      <span class="course-price">
-                          <del>2.000.000 VNĐ</del> 
-                            <br>1.500.000 VNĐ
-                        </span>
-                    <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
-                    <h3><a href="shopdrawing-trien-khai-thi-cong.html">Shopdrawing Xây Dựng</a></h3>
-                    <p>Triển khai chi tiết bản vẽ thi công công trình </p>
-                  </div>
-                  <div class="d-flex border-top stats">
-                    <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
-                  </div>
-                </div>
+          <div class="owl-carousel col-12 nonloop-block-14">
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="autocad-co-ban.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">
+                  <del>2.000.000 VNĐ</del>
+                  <br>1.500.000 VNĐ
+                </span>
+                <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                <h3><a href="autocad-co-ban.html">Autocad cơ bản</a></h3>
+                <p>Học Autocad cho người mới bắt đầu từ con số không</p>
+                <p><a href="autocad-co-ban.html">(Xem thêm)</a></p>
               </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
 
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="#"><img src="images/img_5.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">
+                  <del>2.000.000 VNĐ</del>
+                  <br>1.500.000 VNĐ
+                </span>
+                <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                <h3><a href="#">Autocad nâng cao</a></h3>
+                <p>Học Autocad cho những bạn đã có căn bản </p>
+                <p>Đang cập nhật chương trình</p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">
+                  <del>2.000.000 VNĐ</del>
+                  <br>1.500.000 VNĐ
+                </span>
+                <div class="meta"><span class="icon-clock-o"></span>10 Buổi</div>
+                <h3><a href="#">Excel cơ bản</a></h3>
+                <p>Exel cơ bản cho sinh viên - công việc văn phòng</p>
+                <p>Đang cập nhật chương trình</p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">
+                  Thỏa thuận theo độ khó
+                </span>
+                <div class="meta"><span class="icon-clock-o"></span> Kèm 10 buổi theo yêu cầu</div>
+                <h3><a href="#">Excel nâng cao</a></h3>
+                <p>Exel nâng cao cho người đã đi làm theo từng chuyên ngành</p>
+                <p>Đang cập nhật chương trình</p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">
+                  <del>2.000.000 VNĐ</del>
+                  <br>1.500.000 VNĐ
+                </span>
+                <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                <h3><a href="#">Revit cơ bản</a></h3>
+                <p>Học Revit cho người mới bắt đầu từ con số không</p>
+                <p>Đang cập nhật chương trình</p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
+
+
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="#"><img src="images/img_6.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                <span class="course-price">
+                  <del>2.000.000 VNĐ</del>
+                  <br>1.500.000 VNĐ
+                </span>
+                <div class="meta"><span class="icon-clock-o"></span>4 Bài / 12 Buổi</div>
+                <h3><a href="#">Shopdrawing Xây Dựng</a></h3>
+                <p>Triển khai chi tiết bản vẽ thi công công trình </p>
+                <p>Đang cập nhật chương trình</p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 5 học viên/Lớp</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-7 text-center">
@@ -267,82 +264,6 @@
         </div>
       </div>
     </div>
-
-
-    <!--  <div class="site-section" id="programs-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
-            <h2 class="section-title">Chương Trình</h2>
-            <p>Với kinh nghiệm giảng dạy tại các trung tâm tin học cũng như kinh nghiệm làm việc của mình sẽ hỗ trợ được cho các bạn có một nền tản tin học tốt, vững chắc để tự tin tìm kiếm cho mình một công việc tốt</p>
-          </div>
-        </div>
-        <div class="row mb-5 align-items-center">
-          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">We Are Excellent In Education</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
-              <div><h3 class="m-0">22,931 Yearly Graduates</h3></div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div><h3 class="m-0">150 Universities Worldwide</h3></div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row mb-5 align-items-center">
-          <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/undraw_teaching.svg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Strive for Excellent</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
-              <div><h3 class="m-0">22,931 Yearly Graduates</h3></div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div><h3 class="m-0">150 Universities Worldwide</h3></div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row mb-5 align-items-center">
-          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/undraw_teacher.svg" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-            <h2 class="text-black mb-4">Education is life</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
-
-            <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-graduation-cap"></span></span>
-              <div><h3 class="m-0">22,931 Yearly Graduates</h3></div>
-            </div>
-
-            <div class="d-flex align-items-center custom-icon-wrap">
-              <span class="custom-icon-inner mr-3"><span class="icon icon-university"></span></span>
-              <div><h3 class="m-0">150 Universities Worldwide</h3></div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div> -->
-
     <div class="site-section" id="teachers-section">
       <div class="container">
 
@@ -362,9 +283,10 @@
               <img src="images/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
                 <h3 class="text-black">Lê Việt Thắng</h3>
-                <p class="position">Autocad từ cơ bản đến nâng cao</p>
-                <p>Với kinh nghiệm giảng dạy tại các trung tâm tin học cùng với làm việc tại tập đoàn lớn giúp bạn nắng
-                  chắc từ cơ bản đến nâng cao</p>
+                <p class="position"></p>
+                <p>Chuyên viên QS - Tập Đoàn Xây Dưng Hòa Bình<p>
+                <p>Kỹ sư Quản Lý Dự Án - ĐH Bách Khoa Đà Nẵng<p>
+                <p>Giảng Viên Bộ Môn AutoCad - Exel - Bóc tách khối lượng xây dựng - Điện Dân Dụng</p>
               </div>
             </div>
           </div>
@@ -374,8 +296,10 @@
               <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
                 <h3 class="text-black">Lê Công Trịnh</h3>
-                <p class="position">Shopdrawing xây dựng</p>
-                <p>Đã có kinh nghiệm triển khai bản vẽ xây dựng ở các công trình lớn</p>
+                <p class="position"></p>
+                <p>Chuyên viên Shopdwg - Tập Đoàn Xây Dưng Hòa Bình,Vinaconex 25<p>
+                <p>Kỹ sư xây dựng dân dụng - ĐH Bách Khoa Đà Nẵng</p>
+                <p>Giảng Viên Bộ Môn Revit - Shopdrawing</p>
               </div>
             </div>
           </div>
@@ -384,10 +308,11 @@
             <div class="teacher text-center">
               <img src="images/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
               <div class="py-2">
-                <h3 class="text-black">Lê Văn An</h3>
-                <p class="position">Excel từ cơ bản đến nâng cao</p>
-                <p>Với kinh nghiệm giảng dạy tại các trung tâm tin học cùng với làm việc tại tập đoàn lớn giúp bạn nắng
-                    chắc từ cơ bản đến nâng cao. Đang hoạt động trong lĩnh vực xây dựng áp dụng bảng tính vào xây dựng</p>
+                <h3 class="text-black">Nguyễn Đình Cường</h3>
+                <p class="position"></p>
+                <p>Kiến trúc sư - Công ty tư vấn thiết kế xây dựng A2B Việt Nam<p>
+                <p>Kiến trúc sư - ĐH Bách Khoa Đà Nẵng<p>
+                <p>Giảng Viên Bộ Môn Revit - Sketchup</p>
               </div>
             </div>
           </div>
@@ -408,8 +333,7 @@
         </div>
       </div>
     </div>
-
-    <div class="site-section pb-0" id="why-section" >
+    <div class="site-section pb-0" id="why-section">
 
       <div class="future-blobs">
         <div class="blob_2">
@@ -422,50 +346,44 @@
       <div class="container">
         <div class="row mb-5 justify-content-center" data-aos="fade-up" data-aos-delay="">
           <div class="col-lg-7 text-center">
-            <h2 class="section-title">Tại sao chọn chúng tôi</h2>
+            <h2 class="section-title">Lớp học của chúng tôi có gì:</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto align-self-start" data-aos="fade-up" data-aos-delay="100">
-
             <div class="p-4 rounded bg-white why-choose-us-box">
 
               <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
                 <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span>
                 </div>
                 <div>
-                  <h3 class="m-0">Giảng viên chuyên nghiệp</h3>
+                  <h3 class="m-0">+ Đội ngũ giảng viên trẻ năng động đang công tác tại các tập đoàn xây dựng hàng đầu
+                    Việt Nam</h3>
                 </div>
               </div>
-
-              <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
-                  <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span>
-                  </div>
-                  <div>
-                    <h3 class="m-0">Áp dụng công trình thực tế vào việc dạy học</h3>
-                  </div>
-                </div>
-
-                
-
-              <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
-                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-university"></span></span>
-                </div>
-                <div>
-                  <h3 class="m-0">Cam kết chất lượng đầu ra</h3>
-                </div>
-              </div>
-
               <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
                 <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span>
                 </div>
                 <div>
-                  <h3 class="m-0">Học viên được hỗ trợ sau khi tốt nghiệp</h3>
+                  <h3 class="m-0">+ Lớp kèm 5-7 học viên, cầm tay chỉ việc</h3>
+                </div>
+              </div>
+              <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-university"></span></span>
+                </div>
+                <div>
+                  <h3 class="m-0">+ Thành thạo kỹ năng phần mềm sau khi tốt nghiệp</h3>
+                </div>
+              </div>
+              <div class="d-flex align-items-center custom-icon-wrap custom-icon-light mb-3">
+                <div class="mr-3"><span class="custom-icon-inner"><span class="icon icon-graduation-cap"></span></span>
+                </div>
+                <div>
+                  <h3 class="m-0">+ Học viên sau khi tốt nghiêp được hỗ trợ online nếu xảy ra vấn đề trong quá trình làm
+                    việc hoàn toàn miễn phí</h3>
                 </div>
               </div>
             </div>
-
-
           </div>
           <div class="col-lg-7 align-self-end" data-aos="fade-left" data-aos-delay="200">
             <img src="images/person_transparent.png" alt="Image" class="img-fluid">
@@ -473,9 +391,6 @@
         </div>
       </div>
     </div>
-
-
-
     <footer class="footer-section bg-white">
       <div class="container">
         <div class="row">
@@ -493,13 +408,11 @@
               <li><a href="#">Đôi ngũ</a></li>
             </ul>
           </div>
-
           <div class="col-md-4">
             <p>Teach-Technical: áp dụng công nghệ một cách thông minh</p>
+            <p>Địa chỉ: 590 Đường CMT tháng 8 - Phường 11 - Quận 3 - HCMC</p>
           </div>
-
         </div>
-
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
@@ -517,10 +430,7 @@
         </div>
       </div>
     </footer>
-
-
-
-  </div> <!-- .site-wrap -->
+  </div>
 
   <script>
     var modal = document.querySelector(".popup-modal");
@@ -541,6 +451,26 @@
     closeButton.addEventListener("click", toggleModal);
     window.addEventListener("click", windowOnClick);
   </script>
+  <script>
+    $("#register").submit(function (e) {
+      e.preventDefault(); // avoid to execute the actual submit of the form.
+      var form = $(this);
+      var url = form.attr('action');
+      toggleModal();
+      $.ajax({
+        type: "POST",
+        url: "https://us-central1-fir-website-14f6d.cloudfunctions.net/app/user",
+        data: {
+          name: jQuery('input[name="name"]').val(),
+          telephone: jQuery('input[name="telephone"]').val(),
+          class: $('#myselect').find(":selected").text(),
+          email: jQuery('input[name="email"]').val()
+        },
+        success: function (data) {
+        }
+      });
+    });
+  </script>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -555,10 +485,7 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
-
-
   <script src="js/main.js"></script>
-
 </body>
 
 </html>
